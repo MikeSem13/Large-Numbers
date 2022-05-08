@@ -5,8 +5,13 @@ using UnityEngine;
 
 [Serializable] public class ValueModel
 {
-   [Header("Value Settings")] 
+   [Header("Value Settings")]
    
    public string ValueName;
    public float Valute;
+
+   [Space] 
+   [Header("Multi Of Value")] 
+   
+   public float Multi;
 }

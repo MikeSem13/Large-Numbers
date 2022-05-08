@@ -20,5 +20,8 @@ using UnityEngine.UI;
    [Header("Value Settings")] 
    
    [SerializeField] public List<string> SybvolsOfValue;
+   [Space]
    public int _NumberOfValue;
+   [Space]
+   public int NumberOfMulti;
 }
